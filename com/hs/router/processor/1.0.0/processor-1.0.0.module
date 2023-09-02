@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hs.router",
+    "module": "processor",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-1.0.0.jar",
+          "url": "processor-1.0.0.jar",
+          "size": 61309,
+          "sha512": "2cc175e9379729d565d5e7b068966aaa8d7cc4e40d55c4ac019cc7187eec48c40fa3fa9d91cff23bafc524d301642f758c4a9bae5550840de596a91a6188f2b2",
+          "sha256": "158229f9143097066958b1e3395d88dad35527d6ace88f347913e29431aba021",
+          "sha1": "cf806621dd2ef5e77b0dd47dee2c3144bae247d6",
+          "md5": "b347de1c8267b9829c073741890470cd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.8.20-1.0.11"
+          }
+        },
+        {
+          "group": "com.hs.router",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-1.0.0.jar",
+          "url": "processor-1.0.0.jar",
+          "size": 61309,
+          "sha512": "2cc175e9379729d565d5e7b068966aaa8d7cc4e40d55c4ac019cc7187eec48c40fa3fa9d91cff23bafc524d301642f758c4a9bae5550840de596a91a6188f2b2",
+          "sha256": "158229f9143097066958b1e3395d88dad35527d6ace88f347913e29431aba021",
+          "sha1": "cf806621dd2ef5e77b0dd47dee2c3144bae247d6",
+          "md5": "b347de1c8267b9829c073741890470cd"
+        }
+      ]
+    }
+  ]
+}
